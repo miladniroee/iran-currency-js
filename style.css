@@ -1,0 +1,56 @@
+.currency__container {
+    font-size: 12px;
+    width: 100%;
+    background: rgb(68, 68, 68);
+    display: none;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    z-index: 9;
+    background: #333;
+    padding: 5px
+}
+.currency__last-update {
+    padding: 5px 5px 10px;
+    text-align: center;
+    width: 100%;
+}
+.currency__prices{
+    background: #555;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.currency__item {
+    width: 100%;
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.currency__item-price {
+    font-weight: bold;
+    color: #009DD1
+}
+.currency__item-title.high {
+    color: #8fff8f;
+}
+.currency__item-title.high::before {
+    content: "▲";
+    margin-left: 5px;
+}
+.currency__item-title.low {
+    color: #ff9696;
+}
+.currency__item-title.low::before {
+    content: "▼";
+    margin-left: 5px;
+}
