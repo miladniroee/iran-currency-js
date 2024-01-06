@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
           }
         });
 
-        if (currencyData.length === 7) {
+        if (currencyData.length === ExpectedData.length) {
           PrintValues(currencyData);
         }
       } else {
